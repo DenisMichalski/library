@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.library {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.book-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.book-card h3 {
+    margin: 0 0 0.5rem;
+}
+
+.book-card p {
+    margin: 0.5rem 0;
+}
+
+.book-card button {
+    margin-top: 0.5rem;
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remove-btn {
+    background: #e74c3c;
+}
+
+.read-status {
+    color: green;
+    font-weight: bold;
+}
+
+.not-read-status {
+    color: red;
+    font-weight: bold;
+}
+
+.form-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form button {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 200px;
+}
+
+.form-btn {
+    background: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-btn:hover {
+    background: #27ae60;
+}
