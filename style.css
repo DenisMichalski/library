@@ -87,3 +87,14 @@ form button {
 .form-btn:hover {
     background: #27ae60;
 }
+
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input.invalid {
+    border: 2px solid red;
+}
